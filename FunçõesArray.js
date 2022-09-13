@@ -59,4 +59,15 @@
 // notas3.splice(3, 2, 7, 8, 15)
 // console.log(notas3)
 
+// Função Slice
+// Serve para escolhermos uma seleção de elemento, onde devemos escolher 2 parâmetros, o primeiro determina a primeira posição da seleção
+// e o segundo indica a posição seguinte do último elemento.
+// Exemplo
+
+let notas = [10, 5, 1, 2, 8, 4, 7, 3]
+console.log(notas)
+
+let resultado = notas.slice(3, 6)
+console.log(resultado)
+
 
